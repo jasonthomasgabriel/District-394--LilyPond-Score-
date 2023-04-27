@@ -17,7 +17,7 @@
     instrumentName = \user_instrument_one_instrumentname
     shortInstrumentName = \user_instrument_one_shortinstrumentname
     % midiInstrument = ""
-  } { \clef treble << \removeWithTag #'part \global \removeWithTag #'part \notes_user_instrument_one >> }
+  } { \clef treble << \removeWithTag #'score \global \removeWithTag #'part \notes_user_instrument_one >> }
 
   % Part Only Part Definition  
   part_user_instrument_one_part = \new Staff \with {

@@ -27,7 +27,7 @@
 
     % Set printPartCombineTexts to ##t when working with 2 parts
     printPartCombineTexts = ##f
-  } { \clef treble << \removeWithTag #'part \global \removeWithTag #'part \partCombine #'(1 . 0) \notes_piccolo_one \notes_piccolo_two >> }
+  } { \clef treble << \removeWithTag #'score \global \removeWithTag #'part \partCombine #'(1 . 0) \notes_piccolo_one \notes_piccolo_two >> }
 
   % Part Only Part Definition
   part_piccolo_part = \new Staff \with {

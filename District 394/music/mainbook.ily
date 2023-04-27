@@ -13,7 +13,7 @@
       \include "headers.ily"
 
       % Set the instrument and/or part name below
-      % instrument = ""
+      instrument = "Full Score"
     }
 
     % Score 

@@ -6,8 +6,8 @@
 \version "2.24.1"
 
 % Set instrument names and short instrument names for the user instruments below
-user_instrument_one_instrumentname = "user instrument 1"
-user_instrument_one_shortinstrumentname = "ui 1"
+user_instrument_one_instrumentname = \markup { "Viola" \italic "(solo)" }
+user_instrument_one_shortinstrumentname = \markup { "Vla." \italic "(solo)" }
 
 user_instrument_two_instrumentname = "user instrument 2"
 user_instrument_two_shortinstrumentname = "ui 2"
