@@ -1,16 +1,17 @@
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- % Project     :                                                %
- % Owner       :                                                %
+ % Project     : District 394                                   %
+ % Owner       : Jason Thomas Gabriel                           %
  % ------------------------------------------------------------ %
- % Start date  :                                                %
- % Last edit   :                                                %
+ % Start date  : 27-04-2023                                     %
+ % Last edit   : 27-04-2023                                     %
  % ------------------------------------------------------------ %
- % License     :                                                %
- %                                                              %
+ % License     : Attribution-NonCommercial-ShareAlike           %
+ %               4.0 International                              %
  %                                                              %
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        %%%%%%%% Created using Engraving Quickstart v4.0 %%%%%%%%
-        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%% Created using Engraving Quickstart v4.0 %%%%%%%%%%%%
+ %% github.com/jasonthomasgabriel/LilyPond-Engraving-Quickstart %
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \version "2.24.1"
 
@@ -47,8 +48,8 @@ no_music = \skip 4
 
   % Music
     % Choose between starting with an empty, nameless part (default) or the instrument library
-      \include "music/bundle_music_default_part.ily"
-      % \include "music/bundle_music_instrument_library.ily"
+      % \include "music/bundle_music_default_part.ily"
+      \include "music/bundle_music_instrument_library.ily"
 
 % Books
   % Main book
