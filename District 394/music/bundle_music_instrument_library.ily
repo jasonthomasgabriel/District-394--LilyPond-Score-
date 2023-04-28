@@ -5,6 +5,9 @@
 
 \version "2.24.1"
 
+%# (set-global-staff-size 15.0)
+% \include "../resources/housefonts.ily"
+
 % Indentation - set for WITH instrument names
   \include "../resources/indentation_with_instrumentnames.ily"
 

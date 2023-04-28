@@ -5,7 +5,19 @@
 
 \version "2.24.1"
 
+\layout {
+  \context {
+    \Staff
+    \remove Staff_highlight_engraver
+  }
+  \context {
+    \Score
+    \consists Staff_highlight_engraver
+  }
+}
+
 global = {
+  % \tag #'part { \compressEmptyMeasures }
   %0
   \key f \major
   \time 2/2
@@ -83,7 +95,9 @@ global = {
     
     %24
     \time 7,5 12/8
+    \staffHighlight "#FDD4D4" % Tho the arp (and so time) follows a 7-5 structure, the other instruments may hemiola a 6-6
     \skip 8*12
+    \stopStaffHighlight
   }
   
   %33
@@ -117,7 +131,9 @@ global = {
   
   %42
   \time 7,5 12/8
+  \staffHighlight "#FDD4D4" % Tho the arp (and so time) follows a 7-5 structure, the other instruments may hemiola a 6-6
   \skip 8*12
+  \stopStaffHighlight
   
   %43 - 44
   \barNumberCheck #43

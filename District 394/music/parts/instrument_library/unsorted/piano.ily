@@ -8,11 +8,33 @@
 
 % Note input
   notes_piano_upper = \relative c' {
-    \no_music % remove when inputting notes
+    \set PianoStaff.connectArpeggios = ##t
+    \arpeggioArrowUp
+    <a c f>1\arpeggio \fermata %0
+    a2 <f a f'> %1
+    e' c %2
+    r d %3
+    <a c>1 %4
+    
+    c8\p f a f a c, f a f a | % 
+    c, f a f a c, f a f a |
+    d, f a f a d, f a f a |
+    bf, f' bf f bf bf, f' bf f bf |
+    c, f a f a c, f a f a f a |
+    c, f a f a c, f a f a |
+    d, f a f a d, f a f a |
+    bf, f' bf f bf bf, f' bf f |
+    c f a f a c, f a f a f a |
+    c, f a f a c, f a f a f a
   }
   
   notes_piano_lower = \relative c' {
-    \no_music % remove when inputting notes
+    \arpeggioArrowUp
+    <f,, c' f>1\arpeggio \fermata %0
+    f1 %1
+    <c' g'> %2
+    <bf f' bf> %3
+    <f c' f> %4
   }
 
 % Part definitions

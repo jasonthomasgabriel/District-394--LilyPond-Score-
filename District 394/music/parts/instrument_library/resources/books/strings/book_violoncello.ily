@@ -8,7 +8,7 @@
 % Set indentation to NO instrument name on the left
 \include "../../../../../../resources/indentation_no_instrumentnames.ily"
 
-\book {
+\book {  
   \bookOutputSuffix "violoncello"
   \bookpart {
     \header {
