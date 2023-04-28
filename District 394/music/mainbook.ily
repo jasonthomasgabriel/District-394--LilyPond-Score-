@@ -17,11 +17,15 @@
     }
 
     % Score 
+      % Visual output only
       % Optionally set staff size in \layout{}, depending on needs when dealing with multiple scores.
-      \score { \scoring \layout { %{ #(layout-set-staff-size 20) %} } \midi { \set Score.midiChannelMapping = #'instrument } }
-
+      \score { \scoring \layout { %{ #(layout-set-staff-size 20) %} } }
+      
+      % MIDI output only
+      % \score { \scoring \midi { \set Score.midiChannelMapping = #'instrument } }
+      
     % Articulated MIDI score block %
       % (Purposely creates no visual output) %
-      \score { \unfoldRepeats \articulate << \scoring >> \midi { \set Score.midiChannelMapping = #'instrument } }
+      % \score { \unfoldRepeats \articulate << \scoring >> \midi { \set Score.midiChannelMapping = #'instrument } }
   }
 }

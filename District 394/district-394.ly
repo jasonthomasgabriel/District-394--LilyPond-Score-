@@ -56,4 +56,4 @@ no_music = \skip 4
     \include "music/mainbook.ily" 
     
   % Optional books for individual parts - when using the Instrument Library.
-    \include "music/parts/instrument_library/resources/books/bundle_books_instrument_library.ily"
+    % \include "music/parts/instrument_library/resources/books/bundle_books_instrument_library.ily"
