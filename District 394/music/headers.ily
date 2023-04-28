@@ -21,7 +21,7 @@ composer        = "Jason Thomas Gabriel"
 
 copyright       = \markup {
                       \center-column {
-                        \line {\upright "MMDCCLXXV"} %Ab urbe condita
+                        \line {\upright "- MMDCCLXXV -"} %Ab urbe condita
                         \with-url "https://soundcloud.com/jasonthomasgabriel/district-394"
                         \line {\italic \smaller \right-align \sans \with-color #(rgb-color 0.251 0.251 0.251) "click here to listen to this composition" \with-color #(rgb-color 0.749 0.749 0.749) \italic \sans "(opens link to SoundCloud)"}
                       }
