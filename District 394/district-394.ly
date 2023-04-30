@@ -38,7 +38,7 @@ no_music = \skip 4
     % House fonts (disable when not available on your machine)
       \include "resources/housefonts.ily"
 
-% Engraving includes  
+% Engraving includes
   % Notation rules
     \include "resources/notationrules.ily"
 

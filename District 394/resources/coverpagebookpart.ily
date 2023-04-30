@@ -6,6 +6,10 @@
 \version "2.24.1"
 
 \bookpart {
+  \paper {
+   bookpart-level-page-numbering = ##t
+  }
+  
   \markup{
     \scale #'(0.46 . 0.46) % Scale-up after size reduction by set-global-staff size, as there was no other way to ONLY scale the other bookpart - without interesting problems, that is.
     \with-dimensions #'(0 . 0) #'(595 . 842)
@@ -527,3 +531,12 @@
      "
   }
 }
+
+% \bookpart {
+%   \paper {
+%    bookpart-level-page-numbering = ##t
+%   }
+%   
+%   \markup {"page left blank on purpose"}
+% }
+
