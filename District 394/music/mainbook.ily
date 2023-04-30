@@ -6,6 +6,9 @@
 \version "2.24.1"
 
 \book {
+  
+  \include "../resources/coverpagebookpart.ily"
+  
   \bookpart {
     \header {
       % Headers are centralised (to make things easier when dealing with multiple parts).

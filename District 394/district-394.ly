@@ -37,7 +37,7 @@ no_music = \skip 4
   
     % House fonts (disable when not available on your machine)
       \include "resources/housefonts.ily"
-  
+
 % Engraving includes  
   % Notation rules
     \include "resources/notationrules.ily"
@@ -54,6 +54,6 @@ no_music = \skip 4
 % Books
   % Main book
     \include "music/mainbook.ily"
-    
+     
   % Optional books for individual parts - when using the Instrument Library.
     \include "music/parts/instrument_library/resources/books/bundle_books_instrument_library.ily"
