@@ -29,7 +29,7 @@
   % Part Only Part Definition  
   part_user_instrument_one_part = \new Staff \with {
     midiInstrument = "viola"
-  } { \clef alto << \removeWithTag #'score \global \removeWithTag #'score \notes_user_instrument_one >> }
+  } { \clef alto << \removeWithTag #'score \global \removeWithTag #'score \compressMMRests { \notes_user_instrument_one } >> }
   
 % Scoring (for part only purposes)
   scoring_user_instrument_one_part = {

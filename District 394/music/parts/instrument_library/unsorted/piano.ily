@@ -58,10 +58,10 @@
     <<
       \new Staff = "staff_piano_upper" \with {
         midiInstrument = "acoustic grand"
-      } { \clef treble << \removeWithTag #'score \global \removeWithTag #'score \notes_piano_upper >> } 
+      } { \clef treble << \removeWithTag #'score \global \removeWithTag #'score \compressMMRests { \notes_piano_upper } >> } 
       \new Staff = "staff_piano_lower" \with {
         midiInstrument = "acoustic grand"
-      } { \clef bass << \removeWithTag #'part \global \removeWithTag #'part \notes_piano_lower >> }
+      } { \clef bass << \removeWithTag #'part \global \removeWithTag #'part \compressMMRests { \notes_piano_lower } >> }
     >>
   }
   
