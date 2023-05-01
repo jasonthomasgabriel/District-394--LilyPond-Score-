@@ -55,11 +55,19 @@ global = {
   \time 5,4 9/8
   \skip 8*9
   
-  %13 - 15
+  %13 - 14
   \barNumberCheck #13
   \bar "||"
   \time 5,5,2 12/8
-  \skip 8*12*3
+  \skip 8*12*2
+  
+  %15
+  \staffHighlight "lightblue" % The 12/8 is grouped 5-5-2, but the fives could be subdivided 3-2, to make it slightly more intuitive to read.
+  \skip 8*10
+  \stopStaffHighlight
+  \staffHighlight "lightgreen" % consider making this a group of 7 instead
+  \skip 8*2
+  \stopStaffHighlight
   
   %16
   \time 7 7/8

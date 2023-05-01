@@ -21,7 +21,7 @@ no_music = \skip 4
 
 % A short print reference for yourself
 % Only visible in print, when "status" is set to \draftversion or \publishedversion in headers
-fileversionreferencetracker = "ref - add vc"
+fileversionreferencetracker = "ref: add pc fl cl cy bd"
 
 #(ly:set-option 'relative-includes #t)
 \include "articulate.ly"
@@ -30,14 +30,14 @@ fileversionreferencetracker = "ref - add vc"
   % Headers
     \include "resources/headerdefinitions.ily"
   
-  % Paper size and margins
+  % Paper size and margins 
     \include "resources/papersize_margins.ily"
   
   % Fonts
     % Staff size needs to be set, before changing the font
     % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.19/Documentation/notation/setting-the-staff-size
     % That said, size 15 is a nice starting point
-      #(set-global-staff-size 9.0) 
+      #(set-global-staff-size 8.8) 
   
     % House fonts (disable when not available on your machine)
       \include "resources/housefonts.ily"
@@ -46,7 +46,7 @@ fileversionreferencetracker = "ref - add vc"
   % Notation rules
     \include "resources/notationrules.ily"
 
-% Music includes 
+% Music includes
   % Functions and variables
     \include "music/functions_variables.ily" 
 
