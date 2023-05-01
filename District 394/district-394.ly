@@ -19,6 +19,10 @@
 % For quick testing of your setup, you could replace the spacer with some music in curly brackets.
 no_music = \skip 4
 
+% A short print reference for yourself
+% Only visible in print, when "status" is set to \draftversion or \publishedversion in headers
+fileversionreferencetracker = "ref - add vc"
+
 #(ly:set-option 'relative-includes #t)
 \include "articulate.ly"
 
@@ -44,7 +48,7 @@ no_music = \skip 4
 
 % Music includes 
   % Functions and variables
-    \include "music/functions_variables.ily"
+    \include "music/functions_variables.ily" 
 
   % Music
     % Choose between starting with an empty, nameless part (default) or the instrument library
@@ -52,8 +56,13 @@ no_music = \skip 4
       \include "music/bundle_music_instrument_library.ily"
 
 % Books
-  % Main book
-    \include "music/mainbook.ily"
-     
+  % Main book (and optional cover page)
+    \book {
+      % Optional cover page (uncomment if desired)
+        \include "resources/coverpagebookpart3.ily"
+      % Main book
+        \include "music/mainbookpart.ily"
+    }
+
   % Optional books for individual parts - when using the Instrument Library.
     \include "music/parts/instrument_library/resources/books/bundle_books_instrument_library.ily"

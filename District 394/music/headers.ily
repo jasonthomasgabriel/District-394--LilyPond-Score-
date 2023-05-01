@@ -3,7 +3,7 @@
 %%%% version: 4.0
 %%%% Author: Jason Thomas Gabriel
 
-draftline       = \draftline
+statusline       = \draftversion
 productiontitle = "A Cautionary Tale"
 % bigsongnumber   = \markup \bigsongnumbermarkup "1"
 % revision        = "REV#1 DD-MM-YY - description of changes"
@@ -19,7 +19,7 @@ composer        = "Jason Thomas Gabriel"
 % piece           = ""
 % opus            = ""
 
-copyright       = \markup {
+tagline       = \markup {
                       \center-column {
                         \line {\upright "- MMDCCLXXV -"} %Ab urbe condita
                         \with-url "https://soundcloud.com/jasonthomasgabriel/district-394"
@@ -27,7 +27,7 @@ copyright       = \markup {
                       }
                     }
 
-tagline 	= \markup { 
+copyright 	= \markup { 
                      \with-url #"http://creativecommons.org/licenses/by-nc-sa/4.0/"
                      \line {
                        "District 394 © 2022 by Jason Thomas Gabriel Everts is licensed under CC BY-NC-SA 4.0. To view a copy of this license, click here." 
