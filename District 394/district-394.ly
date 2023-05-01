@@ -21,7 +21,7 @@ no_music = \skip 4
 
 % A short print reference for yourself
 % Only visible in print, when "status" is set to \draftversion or \publishedversion in headers
-fileversionreferencetracker = "ref: add pc fl cl cy bd"
+fileversionreferencetracker = "ref: ps add pc fl cl cy bd"
 
 #(ly:set-option 'relative-includes #t)
 \include "articulate.ly"
@@ -46,7 +46,7 @@ fileversionreferencetracker = "ref: add pc fl cl cy bd"
   % Notation rules
     \include "resources/notationrules.ily"
 
-% Music includes
+% Music includes 
   % Functions and variables
     \include "music/functions_variables.ily" 
 

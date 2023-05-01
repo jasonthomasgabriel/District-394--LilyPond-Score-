@@ -82,7 +82,7 @@
       \scale #'(2 . 2) % Scale-up after size reduction by set-global-staff size, as there was no other way to ONLY scale the other bookpart - without interesting problems, that is.
       \with-dimensions #'(0 . 0) #'(100 . 100)
       \postscript #"
-      6.9 -10 translate
+      8 -10 translate
 
       %Circle - clipping mask
       newpath     
