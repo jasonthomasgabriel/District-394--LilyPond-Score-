@@ -44,7 +44,7 @@ no_music = \skip 4
 
 % Music includes 
   % Functions and variables
-    \include "music/functions_variables.ily" 
+    \include "music/functions_variables.ily"
 
   % Music
     % Choose between starting with an empty, nameless part (default) or the instrument library
@@ -54,6 +54,6 @@ no_music = \skip 4
 % Books
   % Main book
     \include "music/mainbook.ily"
-  
+     
   % Optional books for individual parts - when using the Instrument Library.
     \include "music/parts/instrument_library/resources/books/bundle_books_instrument_library.ily"

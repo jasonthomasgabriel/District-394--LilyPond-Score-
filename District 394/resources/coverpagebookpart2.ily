@@ -59,15 +59,21 @@
       bookcomposer        = "Jason Thomas Gabriel"
       % bookmeter           = ""
       % bookarranger        = ""
+      copyright		  = \markup {
+                             \with-url #"http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                             \line {
+                               "District 394 © 2022 by Jason Thomas Gabriel Everts is licensed under CC BY-NC-SA 4.0. To view a copy of this license, click here." 
+                             }
+                           }
   }
 
   %PostScript drawing :-). Ever since I found out this was possible in LilyPond, I have been obsessed with coding drawings for cover pages.
   \markup{
-      \vspace #10
+      \vspace #11
       \scale #'(2 . 2) % Scale-up after size reduction by set-global-staff size, as there was no other way to ONLY scale the other bookpart - without interesting problems, that is.
       \with-dimensions #'(0 . 0) #'(100 . 100)
       \postscript #"
-      4 -10 translate
+      6.9 -10 translate
 
       %Circle - clipping mask
       newpath     
