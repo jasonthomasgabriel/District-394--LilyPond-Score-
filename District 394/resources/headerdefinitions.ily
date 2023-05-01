@@ -118,36 +118,42 @@ cueheadermarkup = #(define-markup-command (cueheadermarkup layout props arg)
           { \smaller \fromproperty #'header:arranger }
         }
       }
-      \fill-line { \italic \fromproperty #'header:bookdedication }
-      \vspace #0.1 % That's a little close, but I quite like the dedication to rest on the title very snugly.
-      \column {
-        \fill-line{
-          \huge \larger \larger \larger \larger \larger \bold \caps \fromproperty #'header:booktitle
-        }
-        \fill-line {
-          \bold \caps
-          \fromproperty #'header:booksubtitle
-        }
-        \vspace #-0.30
-        \fill-line {
-          \smaller \smaller \italic
-          \fromproperty #'header:booksubsubtitle
-        }
-        \fill-line {
-          \smaller \smaller \sans \italic
-          \fromproperty #'header:bookrevision
-        }
-        \vspace #0.75
-        \fill-line {
-          { \smaller \fromproperty #'header:bookpoet }
-          { \dash \caps \fromproperty #'header:bookinstrument }
-          { \smaller \fromproperty #'header:bookcomposer }
-        }
-        \fill-line {
-          { \smaller \fromproperty #'header:bookmeter }
-          { \smaller \fromproperty #'header:bookarranger }
-        }
-      }
+      % \fill-line \abs-fontsize #10 { \italic \fromproperty #'header:bookdedication }
+      % %\vspace #0.1 % That's a little close, but I quite like the dedication to rest on the title very snugly.
+      % \column {
+      %   \fill-line{
+      %     \abs-fontsize #35 \bold \caps \fromproperty #'header:booktitle
+      %   }
+      %   \null
+      %   \fill-line {
+      %     \abs-fontsize #15
+      %     \bold \caps
+      %     \fromproperty #'header:booksubtitle
+      %   }
+      %   \null
+      %   \fill-line {
+      %     \abs-fontsize #10
+      %     \smaller \smaller \italic
+      %     \fromproperty #'header:booksubsubtitle
+      %   }
+      %   \null
+      %   \fill-line {
+      %     \abs-fontsize #8
+      %     \smaller \smaller \sans \italic
+      %     \fromproperty #'header:bookrevision
+      %   }
+      %   \null
+      %   \fill-line \abs-fontsize #10 {
+      %     { \smaller \fromproperty #'header:bookpoet }
+      %     { \dash \caps \fromproperty #'header:bookinstrument }
+      %     { \smaller \fromproperty #'header:bookcomposer }
+      %   }
+      %   \null
+      %   \fill-line \abs-fontsize #10 {
+      %     { \smaller \fromproperty #'header:bookmeter }
+      %     { \smaller \fromproperty #'header:bookarranger }
+      %   }
+      % }
     }
   }
 

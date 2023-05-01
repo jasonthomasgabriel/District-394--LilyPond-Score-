@@ -7,7 +7,7 @@
 
 \book {
   
-  \include "../resources/coverpagebookpart.ily"
+  \include "../resources/coverpagebookpart2.ily"
   
   \bookpart {
     \header {
