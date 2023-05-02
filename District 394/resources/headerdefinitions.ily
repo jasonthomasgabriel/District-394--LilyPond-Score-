@@ -234,6 +234,7 @@ cueheadermarkup = #(define-markup-command (cueheadermarkup layout props arg)
         %% Tagline header field only on first page in each bookpart.
         \if \on-first-page-of-part \smaller \smaller \italic \fromproperty #'header:tagline
       }
+      \if \on-last-page \null
       \fill-line {
         %% Copyright header field only on last page in the book.
         \if \on-last-page \smaller \smaller \fromproperty #'header:copyright

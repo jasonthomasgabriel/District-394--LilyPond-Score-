@@ -3,7 +3,7 @@
  % Owner       : Jason Thomas Gabriel                           %
  % ------------------------------------------------------------ %
  % Start date  : 27-04-2023                                     %
- % Last edit   : 27-04-2023                                     %
+ % Last edit   : 02-05-2023                                     %
  % ------------------------------------------------------------ %
  % License     : Attribution-NonCommercial-ShareAlike           %
  %               4.0 International                              %
@@ -32,13 +32,13 @@ fileversionreferencetracker = "ref: ps add pc fl cl cy bd"
   
   % Paper size and margins 
     \include "resources/papersize_margins.ily"
-  
+ 
   % Fonts
     % Staff size needs to be set, before changing the font
-    % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.19/Documentation/notation/setting-the-staff-size
+    % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.24/Documentation/notation/setting-the-staff-size
     % That said, size 15 is a nice starting point
       #(set-global-staff-size 8.8)
-  
+ 
     % House fonts (disable when not available on your machine)
       \include "resources/housefonts.ily"
 

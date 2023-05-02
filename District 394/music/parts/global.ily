@@ -13,11 +13,11 @@
   \context {
     \Score
     \consists Staff_highlight_engraver
+    % \override Hairpin.to-barline = ##f
   }
 }
 
 global = {
-  % \tag #'part { \compressEmptyMeasures }
   %0
   \key f \major
   \time 2/2
@@ -73,6 +73,7 @@ global = {
   \time 7 7/8
   \skip 8*7
   
+  %17-32
   \repeat unfold 2 {
     %17 - 18
     %\barNumberCheck #17

@@ -8,7 +8,7 @@
 % Staff size for parts
   % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.19/Documentation/notation/setting-the-staff-size
   % That said, size 15 is a nice starting point
-    #(set-global-staff-size 15.0) 
+    #(set-global-staff-size 16.8) 
   
   % House fonts need to be restated after changing the staff size
     \include "../../../../../resources/housefonts.ily"

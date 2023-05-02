@@ -19,7 +19,7 @@
     
     R8*12 | %13
     r4 a4.\p ~ a \tuplet 3/4 {bf8\tenuto\( e\tenuto a\tenuto\)} | %14
-    g4. e4 ~ e4. ~ e4 ~ e\< ~ | %15
+    g4. e4 ~ e4. ~ e4 ~ \once \override Hairpin.to-barline = ##f e\< ~ | %15
     e4.\! \f r2 | %16
     
     

@@ -20,7 +20,7 @@
     
     R8*12 | %13
     r4 f4.\mp ~ f \tuplet 3/4 {g8\tenuto\( c\tenuto f\tenuto\)} | %14
-    e4. c4 ~ c4. ~ c4 ~ c\< ~ | %15
+    e4. c4 ~ c4. ~ c4 ~ \once \override Hairpin.to-barline = ##f c\< ~ | %15
     c4.\! \f r2 | %16
     
     

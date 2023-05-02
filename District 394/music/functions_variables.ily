@@ -50,3 +50,5 @@ removeDynamics = #(define-music-function (music) (ly:music?)
 stacc_sempre = \markup {\line{\italic "stacc. sempre"}}
 
 reminderStacc = \markup {\line{\italic "(stacc.)"}}
+
+nonStacc = \markup {\line{\italic "(non stacc.)"}}
