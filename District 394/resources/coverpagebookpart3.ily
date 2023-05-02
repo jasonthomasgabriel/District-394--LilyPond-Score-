@@ -79,10 +79,10 @@
   %PostScript drawing :-). Ever since I found out this was possible in LilyPond, I have been obsessed with coding drawings for cover pages.
   \markup{
       \vspace #11
-      \scale #'(2 . 2) % Scale-up after size reduction by set-global-staff size, as there was no other way to ONLY scale the other bookpart - without interesting problems, that is.
+      \scale #'(2.13 . 2.13) % Scale-up after size reduction by set-global-staff size, as there was no other way to ONLY scale the other bookpart - without interesting problems, that is.
       \with-dimensions #'(0 . 0) #'(100 . 100)
       \postscript #"
-      8 -10 translate
+      5.0 -10 translate
 
       %Circle - clipping mask
       newpath     

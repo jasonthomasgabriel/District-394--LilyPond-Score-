@@ -37,7 +37,7 @@ fileversionreferencetracker = "ref: ps add pc fl cl cy bd"
     % Staff size needs to be set, before changing the font
     % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.19/Documentation/notation/setting-the-staff-size
     % That said, size 15 is a nice starting point
-      #(set-global-staff-size 8.8) 
+      #(set-global-staff-size 8.8)
   
     % House fonts (disable when not available on your machine)
       \include "resources/housefonts.ily"
