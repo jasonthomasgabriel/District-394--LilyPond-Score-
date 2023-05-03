@@ -35,7 +35,7 @@
     r4. r8 d'4.\dynamic_molto_espressivo \ff ~ d c4 a ~ | %17
     a4. bf16( a16) g4. ~ g8 a2  bf8 c | %18
     r8 a2. ~ a4 g4. a8 | %19
-    f2.. r4. r4 c8([ f | % 20
+    f2.. r4. r4 \once \override Beam.positions = #'( -4.6 . -2.6 ) c8([ f | % 20
 
     g8] c4) d2 ~ d4. e f8 ~ | %21
     f8 c2. r8 bf4. a8 bf | %22
@@ -44,7 +44,7 @@
 
     \barNumberCheck #25
     \set Staff.midiInstrument = "pizzicato strings"
-    r8 r d'8^"pizz."\mp -. r d-. r d-. r r d-. r d-. r d-. | %25
+    r8 r d'8^"pizz."\reminderDynamic \mp -. r d-. r d-. r r d-. r d-. r d-. | %25
     r8 r c8_\stacc_sempre r c r c r r c r c r c | %26
     r8 r a8 r a r a r r a r a r | %27
     r8 r bf8 r bf r bf r r bf r bf r bf | %28

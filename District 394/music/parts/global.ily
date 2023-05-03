@@ -91,7 +91,7 @@ global = {
     
     %21
     %\barNumberCheck #21
-    \bar "||"
+    %\bar "||"
     \skip 8*14
     
     %22

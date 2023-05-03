@@ -51,4 +51,6 @@ stacc_sempre = \markup {\line{\italic "stacc. sempre"}}
 
 reminderStacc = \markup {\line{\italic "(stacc.)"}}
 
-nonStacc = \markup {\line{\italic "(non stacc.)"}}
+nonStacc = \markup {\line{\italic "non stacc."}}
+
+sempre_legato = \markup {\line{\italic "sempre legato"}}

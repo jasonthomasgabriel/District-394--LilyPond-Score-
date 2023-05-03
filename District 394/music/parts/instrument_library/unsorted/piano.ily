@@ -12,7 +12,7 @@
     \arpeggioArrowUp
     <a c f>1\arpeggio \fermata | %0
     
-    a2 <f a f'> | %1
+    a2^\sempre_legato <f a f'> | %1
     e' c | %2
     r d | %3
     <a c>1\fermata | %4

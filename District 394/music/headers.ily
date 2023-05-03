@@ -3,7 +3,7 @@
 %%%% version: 4.0
 %%%% Author: Jason Thomas Gabriel
 
-statusline       = \draftversion
+statusline       = \publishedversion
 productiontitle = "A Cautionary Tale"
 % bigsongnumber   = \markup \bigsongnumbermarkup "1"
 % revision        = "REV#1 DD-MM-YY - description of changes"

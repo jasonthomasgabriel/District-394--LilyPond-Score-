@@ -21,7 +21,7 @@ no_music = \skip 4
 
 % A short print reference for yourself
 % Only visible in print, when "status" is set to \draftversion or \publishedversion in headers
-fileversionreferencetracker = "ref: pre-final"
+fileversionreferencetracker = "ref: publication #1"
 
 #(ly:set-option 'relative-includes #t)
 \include "articulate.ly"
@@ -54,7 +54,7 @@ fileversionreferencetracker = "ref: pre-final"
     % Choose between starting with an empty, nameless part (default) or the instrument library
       % \include "music/bundle_music_default_part.ily"
       \include "music/bundle_music_instrument_library.ily"
-
+ 
 % Books
   % Main book (and optional cover page)
     \book {
