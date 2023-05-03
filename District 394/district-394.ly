@@ -3,7 +3,7 @@
  % Owner       : Jason Thomas Gabriel                           %
  % ------------------------------------------------------------ %
  % Start date  : 27-04-2023                                     %
- % Last edit   : 02-05-2023                                     %
+ % Last edit   : 03-05-2023                                     %
  % ------------------------------------------------------------ %
  % License     : Attribution-NonCommercial-ShareAlike           %
  %               4.0 International                              %
@@ -21,7 +21,7 @@ no_music = \skip 4
 
 % A short print reference for yourself
 % Only visible in print, when "status" is set to \draftversion or \publishedversion in headers
-fileversionreferencetracker = "ref: ps add pc fl cl cy bd"
+fileversionreferencetracker = "ref: pre-final"
 
 #(ly:set-option 'relative-includes #t)
 \include "articulate.ly"
@@ -32,7 +32,7 @@ fileversionreferencetracker = "ref: ps add pc fl cl cy bd"
   
   % Paper size and margins 
     \include "resources/papersize_margins.ily"
- 
+   
   % Fonts
     % Staff size needs to be set, before changing the font
     % LilyPond Standard staff size = 20. See table with recommendations for various sizes: http://lilypond.org/doc/v2.24/Documentation/notation/setting-the-staff-size

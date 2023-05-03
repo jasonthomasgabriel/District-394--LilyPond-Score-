@@ -44,7 +44,7 @@ global = {
   \skip 8*10*3
   
   %9
-  \time 5,5,2 12/8
+  \time 5,7 12/8
   \skip 8*12
   
   %10 - 11
@@ -58,7 +58,7 @@ global = {
   %13 - 14
   \barNumberCheck #13
   \bar "||"
-  \time 5,5,2 12/8
+  \time 5,7 12/8
   \skip 8*12*2
   
   %15
@@ -131,7 +131,7 @@ global = {
   \skip 8*10*3
   
   %39
-  \time 5,5,2 12/8
+  \time 5,7 12/8
   \skip 8*12
   
   %40 - 41
