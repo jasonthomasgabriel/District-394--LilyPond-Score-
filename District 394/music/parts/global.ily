@@ -62,12 +62,12 @@ global = {
   \skip 8*12*2
   
   %15
-  \staffHighlight "lightblue" % The 12/8 is grouped 5-5-2, but the fives could be subdivided 3-2, to make it slightly more intuitive to read.
+  % \staffHighlight "lightblue" % Editorial - The 12/8 is grouped 5-5-2, but the fives could be subdivided 3-2, to make it slightly more intuitive to read.
   \skip 8*10
-  \stopStaffHighlight
-  \staffHighlight "lightgreen" % consider making this a group of 7 instead
+  % \stopStaffHighlight
+  % \staffHighlight "lightgreen" % Editorial - consider making this a group of 7 instead
   \skip 8*2
-  \stopStaffHighlight
+  % \stopStaffHighlight
   
   %16
   \time 7 7/8
@@ -104,9 +104,9 @@ global = {
     
     %24
     \time 7,5 12/8
-    \staffHighlight "#FDD4D4" % Tho the arp (and so time) follows a 7-5 structure, the other instruments may hemiola a 6-6
+    % \staffHighlight "#FDD4D4" % Editorial - Tho the arp (and so time) follows a 7-5 structure, the other instruments may hemiola a 6-6
     \skip 8*12
-    \stopStaffHighlight
+    % \stopStaffHighlight
   }
   
   %33
@@ -140,9 +140,9 @@ global = {
   
   %42
   \time 7,5 12/8
-  \staffHighlight "#FDD4D4" % Tho the arp (and so time) follows a 7-5 structure, the other instruments may hemiola a 6-6
+  % \staffHighlight "#FDD4D4" % Editorial - Tho the arp (and so time) follows a 7-5 structure, the other instruments may hemiola a 6-6
   \skip 8*12
-  \stopStaffHighlight
+  % \stopStaffHighlight
   
   %43 - 44
   \barNumberCheck #43

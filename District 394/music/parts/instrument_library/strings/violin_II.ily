@@ -10,7 +10,8 @@
   notes_violin_II = \relative c'' {
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     R8*10 | %5
     
@@ -21,7 +22,7 @@
     
     a'2 ~ a4 g8 ~ g4. | %10
     f2 ~ f4 e8 ~ e4. | %11
-    d4. ~ d8 c8 ~ c bf4. | %12
+    d4.( ~ d8 c8 ~ c) bf4. | %12
     
     a1. ~ | %13
     a1. ~ | %14
@@ -59,8 +60,8 @@
     d2 c4 bf8 ~ bf4. | %38
     a1. | %39
     
-    a'4. ~ a4 ~ a8 g2 | %40
-    f4. ~ f4 ~ f8 e2 | %41
+    a'2 ~ a4 g8 ~ g4. | %40
+    f2 ~ f4 e8 ~ e4. | %41
     f1.\< | %42
     
     \barNumberCheck #43

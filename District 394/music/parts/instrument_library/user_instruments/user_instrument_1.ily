@@ -15,7 +15,8 @@
     
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     R8*10 | %5
     f,2.\dynamic_molto_espressivo \f \tuplet 3/4 { g8\(\tenuto c\tenuto f\)\tenuto } | %6
@@ -32,11 +33,11 @@
 
     \barNumberCheck #17 
     r4. r8 d'4.\dynamic_molto_espressivo \ff ~ d c4 a ~ | %17
-    a4. bf16 a16 g4. ~ g8 a2  bf8 c | %18
+    a4. bf16( a16) g4. ~ g8 a2  bf8 c | %18
     r8 a2. ~ a4 g4. a8 | %19
-    f4. ~ f2 r4. r4 c8[ f | % 20
+    f2.. r4. r4 c8([ f | % 20
 
-    g8] c4 d2 ~ d4. e f8 ~ | %21
+    g8] c4) d2 ~ d4. e f8 ~ | %21
     f8 c2. r8 bf4. a8 bf | %22
     a2. \tuplet 3/4 { d4 a f ~ } | %23
     f2. r2. | %24

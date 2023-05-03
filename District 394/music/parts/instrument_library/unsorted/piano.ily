@@ -15,7 +15,7 @@
     a2 <f a f'> | %1
     e' c | %2
     r d | %3
-    <a c>1 | %4
+    <a c>1\fermata | %4
     
     c8\p f a f a    c, f a f a | %5
     c,8 f a f a    c, f a f a | %6
@@ -73,11 +73,11 @@
   
   notes_piano_lower = \relative c' {
     \arpeggioArrowUp
-    <f,, c' f>1\arpeggio \fermata %0
-    f1 %1
-    <c' g'> %2
-    <bf f' bf> %3
-    <f c' f> %4
+    <f,, c' f>1\arpeggio | %0
+    f1 | %1
+    <c' g'> | %2
+    <bf f' bf> | %3
+    <f c' f> | %4
 
     R8*10*4 | %5-8
     R8*12 | %9

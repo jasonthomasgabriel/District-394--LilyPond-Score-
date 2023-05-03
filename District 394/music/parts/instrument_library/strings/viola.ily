@@ -10,20 +10,21 @@
   notes_viola = \relative c' {
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     R8*10 | %5
     
-    g2\p a4 bf8 ~ bf4. | %6
+    g2(\p a4) bf8 ~ bf4. | %6
     c4. ~ c4 ~ c4. ~ c4 | %7
-    c4 bf4 a2. | %8
+    c4( bf4) a2. | %8
     g4 ( f8 ~ f4 ~ f2.. ) | %9
     
-    g2 a4 bf8 ~ bf4. | %10
+    g2( a4) bf8 ~ bf4. | %10
     c4. ~ c4 ~ c4. ~ c4 | %11
-    c4 bf8 ~ bf4 a2 | %12
+    c4( bf8) ~ bf4 a2 | %12
     
-    g4 ( f8 ~ f4. ~ f2. ~ | %13
+    g4 ( f8 ~ f4 ~ f2.. ~ | %13
     f1. ~ | %14
     f1. ~ | %15
     f2.. ) | %16
@@ -54,17 +55,17 @@
     R2.. | %35
     
     \barNumberCheck #36
-    g2\p a4 bf8 ~ bf4. | %36
-    c2 ~ c2. | %37
-    c4 bf4 a2. | %38
-    g4 ( f8 ~ f4. ~ f2. ) | %39
+    g2(\p a4) bf8 ~ bf4. | %36
+    c4. ~ c4 ~ c4. ~ c4 | %37
+    c4( bf4) a2. | %38
+    g4 ( f8 ~ f4 ~ f2.. ) | %39
     
-    g2 a4 bf8 ~ bf4. | %40
-    c2 ~ c2. | %41
+    g2( a4) bf8 ~ bf4. | %40
+    c4. ~ c4 ~ c4. ~ c4 | %41
     c1.\< | %42
     
     \barNumberCheck #43
-    g2\! \p ~ g2. | %43
+    g4.\! \p ~ 4 ~ 4. ~ 4 | %43
     R4*5 | %44
   }
 

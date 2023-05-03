@@ -10,7 +10,8 @@
   notes_flute_one = \relative c''' {
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     R8*10*4 | %5-8
     g8-.\p \< f-. g-. f-. g-. \once \override TextScript.outside-staff-priority = #1 f_\stacc_sempre\! \mf \> g f g f    g\! \mp f | %9

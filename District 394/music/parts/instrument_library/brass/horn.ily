@@ -10,7 +10,8 @@
   notes_horn_one = \relative c' {
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     R8*10*4 | %5-8
     R8*12 | %9
@@ -19,7 +20,9 @@
     
     R8*12 | %13
     r4 a4.\p ~ a \tuplet 3/4 {bf8\tenuto\( e\tenuto a\tenuto\)} | %14
-    g4. e4 ~ e4. ~ e4 ~ \once \override Hairpin.to-barline = ##f e\< ~ | %15
+    \override Hairpin.to-barline = ##f
+    g4. e4 ~ \after 8*5 \< e2.. ~ | %15
+    \revert Hairpin.to-barline
     e4.\! \f r2 | %16
     
     

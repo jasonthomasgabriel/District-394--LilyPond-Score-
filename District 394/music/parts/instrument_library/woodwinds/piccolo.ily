@@ -11,7 +11,8 @@
     \transposition c''
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     R8*10*4 | %5-8
     R8*12 | %9
@@ -20,7 +21,9 @@
     
     R8*12 | %13
     r4 f4.\mp ~ f \tuplet 3/4 {g8\tenuto\( c\tenuto f\tenuto\)} | %14
-    e4. c4 ~ c4. ~ c4 ~ \once \override Hairpin.to-barline = ##f c\< ~ | %15
+    \override Hairpin.to-barline = ##f
+    e4. c4 ~ \after 8*5 \< c2.. ~ | %15
+    \revert Hairpin.to-barline
     c4.\! \f r2 | %16
     
     

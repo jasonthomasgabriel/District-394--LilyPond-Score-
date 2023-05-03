@@ -11,7 +11,8 @@
     \transposition c''
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     a8\p c f c f a, c f c f | %5
     a, c f c f a, c f c f | %6

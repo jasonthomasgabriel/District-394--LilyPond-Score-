@@ -10,7 +10,8 @@
   notes_harp_upper = \relative c' {
     R1\fermata | %0
     
-    R1*4 | %1-4
+    R1*3 | %1-3
+    R1\fermata | %4
     
     R8*10\p | %5
     R8*10*3 | %6-8
@@ -57,15 +58,15 @@
     
     R4*5 | %40
     R4*5 | %41
-    R8*12 | %42
+    \after 8*11 \mf R8*12\< | %42
     
     \barNumberCheck #43
-    R4*5 | %43
+    R4*5\!\p | %43
     R4*5 | %44
   }
   
   notes_harp_lower = \relative c {
-    R1\fermata | %0
+    R1 | %0
     
     R1*4 | %1-4
     
