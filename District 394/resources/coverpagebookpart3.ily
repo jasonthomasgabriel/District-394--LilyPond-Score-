@@ -37,6 +37,7 @@
             \abs-fontsize #10 \italic
             \fromproperty #'header:subsubtitle
           }
+          \vspace #0.75
           \fill-line {
             \abs-fontsize #8 \sans \italic
             \fromproperty #'header:revision
