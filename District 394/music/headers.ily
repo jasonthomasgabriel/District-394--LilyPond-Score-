@@ -6,7 +6,7 @@
 statusline       = \publishedversion
 productiontitle = "A Cautionary Tale"
 % bigsongnumber   = \markup \bigsongnumbermarkup "1"
-% revision        = "REV#1 DD-MM-YY - description of changes"
+revision        = "REV#2 05-11-24 - Improved legibility"
 % cue             = \markup \cueheadermarkup ""
 % dedication      = ""
 title           = "District 394"
