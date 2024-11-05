@@ -7,6 +7,10 @@
 
 
 \bookpart {
+  \paper {
+    system-system-spacing.basic-distance = #28
+  }
+
   \header {
     % Headers are centralised (to make things easier when dealing with multiple parts).
     % If needed a header can be overwritten by restating below the include-file.
